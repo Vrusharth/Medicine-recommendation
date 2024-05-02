@@ -39,7 +39,7 @@ st.title('Search your Medicine')
 
                                         # Searchbox
 selected_medicine_name = st.selectbox(
-'Type medicine name for an alternative recommendation.',
+'',
      medicines['Drug_Name'].values)
 
 
@@ -57,7 +57,7 @@ if st.button('Recommend Medicine'):
 
                                          ## Image load ##
 from PIL import Image
-image = Image.open('images\images.jpeg')
+image = Image.open('images/images.jpeg')
 st.image(image, caption='Recommended Medicines')
 
 
