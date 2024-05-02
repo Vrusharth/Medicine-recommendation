@@ -57,7 +57,7 @@ if st.button('Recommend Medicine'):
 
                                          ## Image load ##
 from PIL import Image
-image = Image.open('images\medicine-image.jpg')
+image = Image.open('images\images.jpeg')
 st.image(image, caption='Recommended Medicines')
 
 
