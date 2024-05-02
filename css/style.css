@@ -59,11 +59,11 @@ a{
     border-radius: 5px; /* Rounded corners */
     padding: 10px 20px; /* Padding */
     cursor: pointer; /* Cursor style on hover */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    transition: background-color 1s; /* Smooth background color transition */
 }
 
 .st-bt:hover {
-    background-color: f86c2a; /* Darker green on hover */
+    background-color: f86c2a; 
 }
 
  
