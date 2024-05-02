@@ -33,7 +33,7 @@ p, ol, ul, dl {
     border: 1px solid rgba(49, 51, 63, 0.2);
 }
 
-h1{
+.tittle{
     color: rgb(158, 220, 203);
     background-color: #3dceff;
     border: 1px solid black;
